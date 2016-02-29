@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE listofbooks[
+    <!ELEMENT book (title1, authors, isbn, price)*>
+    <!ELEMENT title1 (#PCDATA)>
+    <!ELEMENT authors (author)*>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT isbn (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT toc (chapters, appendixes)>
+    <!ELEMENT chapters (chapter)*>
+    <!ELEMENT chapter (#PCDATA)>
+    <!ELEMENT appendixes (appendix)*>
+    <!ELEMENT appendix (#PCDATA)>
+        <!ATTLIST price currency CDATA #REQUIRED>
+
+    <!ENTITY book_1 SYSTEM "1.xml">
+    <!ENTITY book_2 SYSTEM "2.xml">
+    <!ENTITY book_3 SYSTEM "3.xml">
+]>
+
+<listofbooks>
+    <book>
+        <title1>Beginning Web development with visual Interdev 6</title1>
+        <authors>
+            <author>Andrew Mumford</author>
+        </authors>
+        <isbn>1-861002-94-7</isbn>
+        <price currency="USD">39.99</price>
+        &book_1;
+    </book>
+    <book>
+        <title1>Professional Java Server Programming</title1>
+        <authors>
+            <author>Bhami Jain</author>
+            <author>Sami Jain</author>
+            <author>Satish Jain</author>
+            <author>Priya Jain</author>
+            <author>Rahul Jain</author>
+            <author>Vivek Jain</author>
+        </authors>
+        <isbn>1-861002-77-7</isbn>
+        <price currency="USD">59.99</price>
+        &book_2;
+     </book>
+     <book>
+        <title1>Beginning Linux Programming Second Edition</title1>
+        <authors>
+            <author>Niel Matthew</author>
+            <author>Ajay Matthew</author>
+            <author>Asna Matthew</author>
+            <author>Neeraj Matt</author>
+        </authors>
+        <isbn>1-861002-97-1</isbn>
+        <price currency="USD">39.99</price>
+         &book_3;
+     </book>
+</listofbooks>
+
+ 

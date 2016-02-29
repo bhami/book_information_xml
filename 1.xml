@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<toc>
+    <chapters>
+        <chapter>Web Application Development</chapter>
+        <chapter>Introduction to Servlet</chapter>
+        <chapter>Error Handling and event logging</chapter>
+        <chapter>sessions and seesion tracking</chapter>
+        <chapter>Using the servlet context</chapter>
+        <chapter>Introduction to Java Servlet</chapter>
+        <chapter>Smart Servlets</chapter>
+        <chapter>UML tutorial</chapter>
+        <chapter>EJB Reference</chapter>
+        <chapter>Working with JavaSpace</chapter>
+    </chapters>
+    <appendixes>
+        <appendix>appendix HTTP</appendix>
+        <appendix>appendix JDBC Reference</appendix>
+        <appendix>appendix Core JavaMail</appendix>
+        <appendix>appendix The LogWriter Class</appendix>
+        <appendix>appendix JRUN configuration</appendix>
+    </appendixes>
+</toc>
