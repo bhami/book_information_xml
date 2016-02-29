@@ -1,5 +1,6 @@
 <?php
 //common.php for all functions
+//made a small change
 $file = "books.xml";
 $currentTag = "";
 $titleValue = "";
